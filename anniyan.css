@@ -1,0 +1,56 @@
+.aniyan
+{
+    color: darkcyan;
+}
+.maasi
+{
+    color:whitesmoke;
+}
+#maasi
+{
+    color: yellow;
+}
+.imgmaasi
+{
+    padding-top: 100px;
+    height:400px;
+    width: 400px;
+    margin-right: 100px;
+}
+.kamunati
+{
+    color:whitesmoke;
+}
+#kamunati
+{
+    color: blue;
+}
+.imganiyan
+{
+    padding-top: 100px;
+    height:400px;
+    width: 400px;
+    margin-right: 100px;
+}
+.indian
+{
+    color:whitesmoke;
+}
+#indian
+{
+    color: red;
+}
+.imgindian
+{
+    padding-top: 100px;
+    height:400px;
+    width: 400px;
+}
+
+/*.headings{
+    display: flex;
+}*/
+
+body{
+    width: 100%;
+}
