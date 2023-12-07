@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <audio autoplay loop src="anniyan.mp3"></audio>
+    <div style="display: flex;">
+<img src="Screenshot 2023-11-27 213646.png" alt="ANNIYAN" style="height:400px;width: 400px;"><br><br>
+<div style="margin-left: 50px;margin-top: 50px;">    
+    <div style="display: flex; ">
+        <label style="color: brown;font-weight: bolder;" for="name"><h3>பெயர் :</h3></label>
+        <input style="height: 20px;width: 250px;margin-top: 20px; font-size: large; margin-left: 140px;" type="text" id="name">
+    </div><br>
+    
+    <div style="display: flex;">
+        <label style="color: aquamarine;" for="phn"><h3>தொலைபேசி எண் :</h3></label>
+        <input style="height: 20px;width: 250px;margin-top: 20px; font-size: large; margin-left: 10px;" type="number" id="phn">
+    </div><br><br>
+    
+    <div style="display: flex;">
+        <label style="color: burlywood; font-size: x-large; font-weight: bolder;">குற்றம் :</label>
+        <select style="margin-left: 115px;font-weight: bolder;font-size: large;">
+            <option>Hostel Food</option>
+            <option>College Wifi</option>
+            <option>College Exams</option>
+            <option>Loyal Relationship</option>
+            <option>Avoid Kamunnati</option>
+            <option>Love Problems</option>
+            <option>Trust Issues</option>
+        </select>
+    </div><br><br>
+    
+    <div style="display: flex;">
+        <label style="height: 20px;width: 250px;margin-top: 20px; font-size: x-large; color: steelblue; font-weight: bold;width: 350px;">வேறு எதாவது குற்றம் :</label>
+        <input type="text" style="margin-top: 20px;height: 30px; width: 250px;margin-left: 10px;font-size: large;">
+    </div><br><br><br><br>
+
+    <!--<input type="submit" style="margin-left: 30px;font-weight: bold;background-color: white;color: black;" value="Submit"><-->
+    <div style="display: flex;">
+        <button style="margin-left: 60px;font-weight: bold;background-color: white;color: black; width: 70px;" onclick="pt()">Submit</button>
+        <button id="reset" style="margin-left: 60px;font-weight: bold;background-color: white;color: black; width: 70px;"value="Clear">Clear</button>
+    </div>
+    <p style="color: sandybrown;"id="ans"></p>
+</div>
+</div>
+<script src="anniyan.js"></script>
+</body>
+</html>
